@@ -7,13 +7,13 @@ Built a demo project to experiment with Zendesk API
 
 The following properties must be defined to run the application correctly:
 
-| Property Key              | Description                                                                                          |
-|---------------------------|------------------------------------------------------------------------------------------------------|
-| `webhook.create-uri`      | The **relative path** to Zendesk's webhook creation API (usually `/api/v2/webhooks`)                 |
-| `zendesk.subdomain`       | Your Zendesk subdomain (e.g. `yourcompany` if your Zendesk URL is `https://yourcompany.zendesk.com`) |
-| `zendesk.email`           | The email address associated with your Zendesk API account                                           |
-| `zendesk.api-token`       | The Zendesk API token used for authentication                                                        |
-| `zendesk.end-point`       | The public URL of your own webhook receiver endpoint, where Zendesk will send webhook events (e.g. https://example.com/status/200)|
+| Property Key              | Description                                                                                                                        |
+|---------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| `webhook.create-uri`      | The **relative path** to Zendesk's webhook creation API (usually `/api/v2/webhooks`)                                               |
+| `zendesk.subdomain`       | The full Zendesk domain URL (e.g. `https://yourcompany.zendesk.com`)                                                               |
+| `zendesk.email`           | The email address associated with your Zendesk API account                                                                         |
+| `zendesk.api-token`       | The Zendesk API token used for authentication                                                                                      |
+| `zendesk.end-point`       | The public URL of your own webhook receiver endpoint, where Zendesk will send webhook events (e.g. https://example.com/status/200) |
 
 ---
 
